@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GrowKings GTPS</title>
+  <style>
+    body {
+      background: #1c1c1c;
+      color: #f5f5f5;
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(to right, #2d2d2d, #1a1a1a);
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 2px solid gold;
+    }
+    h1 {
+      font-size: 3rem;
+      color: gold;
+      margin: 0;
+    }
+    .description {
+      padding: 2rem;
+      text-align: center;
+      font-size: 1.2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .status {
+      background: #2c2c2c;
+      padding: 1rem;
+      text-align: center;
+      border: 1px solid #444;
+      margin: 1rem auto;
+      width: 200px;
+      border-radius: 8px;
+    }
+    .download, .copy-section {
+      text-align: center;
+      padding: 2rem;
+    }
+    a {
+      color: gold;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    code {
+      display: block;
+      background: #333;
+      padding: 1rem;
+      margin: 1rem auto;
+      max-width: 400px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GrowKings</h1>
+  </header>
+  <section class="description">
+    <p>Selamat datang di dunia <strong>GrowKings</strong> - server Growtopia Private (GTPS) dengan nuansa kerajaan yang megah! Bangun kerajaanmu, kumpulkan pasukan, dan taklukkan dunia bersama teman-temanmu dalam petualangan seru bertema Kingdoms!</p>
+  </section>
+  <section class="status">
+    <strong>Status Server:</strong> Online
+  </section>
+  <section class="download">
+    <h2>Download VHost</h2>
+    <a href="content://ru.zdevs.zarchiver.external/storage/emulated/0/Download/growsoft.txt">Klik untuk Download growsoft.txt</a>
+  </section>
+  <section class="copy-section">
+    <h2>Copy ke file hosts atau gunakan PTUNNEL</h2>
+    <code>
+      91.134.85.13 growtopia1.com<br>
+      91.134.85.13 growtopia2.com<br>
+      91.134.85.13 www.growtopia1.com<br>
+      91.134.85.13 www.growtopia2.com
+    </code>
+  </section>
+</body>
+</html>
